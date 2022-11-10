@@ -763,3 +763,82 @@ in APPPATH/Controllers/SigninController.php on line 18.
  7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
  8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 11:36:06 --> Non-static method App\Libraries\Authkeycloak::getLoginUrl() should not be called statically
+in APPPATH/Controllers/SigninController.php on line 19.
+ 1 APPPATH/Controllers/SigninController.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 13:51:33 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH/Controllers/SigninController.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 14:42:43 --> Too few arguments to function Ataccama\Auth\Auth::__construct(), 0 passed in /var/www/html/codeigniter/app/Controllers/SigninController.php on line 19 and exactly 1 expected
+in VENDORPATH/ataccama/keycloak-adapter/src/Auth/Auth.php on line 44.
+ 1 APPPATH/Controllers/SigninController.php(19): Ataccama\Auth\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 14:54:45 --> Too few arguments to function Ataccama\Auth\Auth::__construct(), 0 passed in /var/www/html/codeigniter/app/Controllers/SigninController.php on line 21 and exactly 1 expected
+in VENDORPATH/ataccama/keycloak-adapter/src/Auth/Auth.php on line 44.
+ 1 APPPATH/Controllers/SigninController.php(21): Ataccama\Auth\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 15:05:24 --> Argument 1 passed to Ataccama\Auth\Auth::__construct() must be an instance of Ataccama\Adapters\Keycloak, string given, called in /var/www/html/codeigniter/app/Controllers/SigninController.php on line 21
+in VENDORPATH/ataccama/keycloak-adapter/src/Auth/Auth.php on line 44.
+ 1 APPPATH/Controllers/SigninController.php(21): Ataccama\Auth\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 15:06:26 --> Too few arguments to function Ataccama\Adapters\Keycloak::__construct(), 0 passed in /var/www/html/codeigniter/app/Controllers/SigninController.php on line 21 and exactly 1 expected
+in VENDORPATH/ataccama/keycloak-adapter/src/Adapters/Keycloak.php on line 51.
+ 1 APPPATH/Controllers/SigninController.php(21): Ataccama\Adapters\Keycloak->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 15:23:53 --> Ataccama\Adapters\Keycloak needs parameter called 'host', set the parameter in config.neon
+in VENDORPATH/ataccama/keycloak-adapter/src/Adapters/Keycloak.php on line 57.
+ 1 APPPATH/Controllers/SigninController.php(25): Ataccama\Adapters\Keycloak->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 15:24:56 --> Return value of App\Libraries\Authkeycloak::getRedirectUri() must be of the type string, none returned
+in APPPATH/Libraries/Authkeycloak.php on line 28.
+ 1 VENDORPATH/ataccama/keycloak-adapter/src/Auth/Auth.php(169): App\Libraries\Authkeycloak->getRedirectUri()
+ 2 APPPATH/Libraries/Authkeycloak.php(10): Ataccama\Auth\Auth->getLoginUrl()
+ 3 APPPATH/Controllers/SigninController.php(27): App\Libraries\Authkeycloak->getLoginUrl()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-10 15:31:18 --> Return value of App\Libraries\Authkeycloak::getRedirectUri() must be of the type string, none returned
+in APPPATH/Libraries/Authkeycloak.php on line 28.
+ 1 VENDORPATH/ataccama/keycloak-adapter/src/Auth/Auth.php(169): App\Libraries\Authkeycloak->getRedirectUri()
+ 2 APPPATH/Libraries/Authkeycloak.php(10): Ataccama\Auth\Auth->getLoginUrl()
+ 3 APPPATH/Controllers/SigninController.php(27): App\Libraries\Authkeycloak->getLoginUrl()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SigninController->loginAuth()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
