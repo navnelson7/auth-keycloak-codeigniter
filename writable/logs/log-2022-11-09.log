@@ -1,0 +1,15 @@
+CRITICAL - 2022-11-09 08:14:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH/CodeIgniter.php on line 224.
+ 1 SYSTEMPATH/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH/spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-09 08:16:10 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH/CodeIgniter.php on line 224.
+ 1 SYSTEMPATH/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH/spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-09 08:19:05 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH/CodeIgniter.php on line 224.
+ 1 SYSTEMPATH/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH/spark(83): CodeIgniter\CodeIgniter->initialize()
